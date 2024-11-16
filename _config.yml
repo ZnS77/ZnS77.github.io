@@ -242,6 +242,7 @@ exclude:
   - INSTALL.md
   - LICENSE
   - lighthouse_results/
+  - _news/announcement_2.md
   - package.json
   - package-lock.json
   - _pages/blog.md
