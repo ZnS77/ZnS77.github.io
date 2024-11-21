@@ -8,6 +8,7 @@ profile:
   align: left
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
+  caption: 'Santa Monica, CA. Credit to <a href="https://haofeiyu.me/" target="_blank" rel="noopener">Haofei</a>.'
   # more_info: >
   #   <p>555 your office number</p>
   #   <p>123 your address street</p>
