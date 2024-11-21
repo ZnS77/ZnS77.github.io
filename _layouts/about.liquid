@@ -27,8 +27,16 @@ layout: default
           {% endif %}
           {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
       30vw, 95vw"{% endcapture %}
+          {% if page.profile.caption %}
+            {% assign page_caption = page.profile.caption %}
+          {% else %}
+            {% assign page_caption = null %}
+          {% endif %}
           {%
-            include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
+            include figure.liquid loading="eager" 
+            path=profile_image_path class=profile_image_class 
+            sizes=sizes alt=page.profile.image
+            caption = page_caption
             cache_bust=true
           %}
         {% endif %}
