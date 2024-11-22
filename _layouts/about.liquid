@@ -33,8 +33,8 @@ layout: default
             {% assign page_caption = null %}
           {% endif %}
           {%
-            include figure.liquid loading="eager" 
-            path=profile_image_path class=profile_image_class 
+            include figure.liquid loading="eager"
+            path=profile_image_path class=profile_image_class
             sizes=sizes alt=page.profile.image
             caption = page_caption
             cache_bust=true

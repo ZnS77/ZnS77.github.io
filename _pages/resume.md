@@ -5,6 +5,7 @@ title: CV
 nav: true
 # redirect_to: /assets/pdf/cv.pdf
 ---
+
 <!DOCTYPE html>
 <html>
 <head>
